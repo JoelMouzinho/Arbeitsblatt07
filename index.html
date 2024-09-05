@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wetter App</title>
+    <script src="app.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+        <h1 class="text-3xl font-bold mb-4 text-center">Wetter App</h1>
+
+        <div class="flex mb-4">
+            <input id="city-input" type="text" placeholder="Stadt hinzufügen" class="p-2 border rounded flex-1">
+            <button id="add-city" class="bg-blue-500 text-white px-4 py-2 ml-2 rounded">Hinzufügen</button>
+        </div>
+
+        <ul id="city-list" class="space-y-4">
+            <!-- Städte und Wetterinformationen erscheinen hier -->
+        </ul>
+    </div>
+</body>
+</html>
